@@ -31,7 +31,7 @@ function appMenu() {
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body class= "bg-secondary">
-    <div class="jumbotron jumbotron-fluid mb-0">
+    <div class="jumbotron jumbotron-fluid mb-0" style="background-image: url('https://www.mybusiness.com.au/images/resize/modern-workplace-myb_fb77.jpg');">
         <div class="container">
         <h1 class="display-3" style="text-align: center;background-color: rgba(255,255,255,0.5); color: black;">${manager.name}'s Engineering Team</h1>
             <hr class="my-2">
@@ -60,7 +60,7 @@ const engineerHTML = (engineer) =>
             <div id="engineer" class="card">
             <div class="card-body badge-dark">
                 <div class="card-header bg-info">
-                <h2 class="card-text" style="text-align: center;">Manager</h5>
+                <h2 class="card-text" style="text-align: center;">Engineer</h5>
                 <h4 class="card-title" style="text-align: center;">Name: ${engineer.name}</h4>
                 </div>
                 <div>
@@ -77,7 +77,7 @@ const internHTML = (intern) =>
             <div id="intern" class="card">
             <div class="card-body badge-dark">
                 <div class="card-header bg-info">
-                <h2 class="card-text" style="text-align: center;">Manager</h5>
+                <h2 class="card-text" style="text-align: center;">Intern</h5>
                 <h4 class="card-title" style="text-align: center;">Name: ${intern.name}</h4>
                 </div>
                 <div>
