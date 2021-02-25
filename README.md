@@ -4,7 +4,7 @@
 
 Back-end code that allows the user to create a team page with all teammembers and their respective roles
 
-![Giphy]("./output/Object.gif")
+![Giphy](https://github.com/landonross/Object-orientation/blob/main/other/Object.gif?raw=true)
 
 * [Installation](#Installation)
 
